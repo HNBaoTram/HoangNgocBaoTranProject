@@ -1,0 +1,10 @@
+# Chặn hoàn toàn tất cả các file dữ liệu bảng nặng
+*.csv
+*.xlsx
+
+# Chặn các file tạm thời của Jupyter Notebook
+.ipynb_checkpoints/
+
+# Chặn các file lưu trữ mô hình dự báo cồng kềnh (nếu có)
+*.pkl
+*.model
